@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Navber = () => {
     return (
         <div>
-            <div className="navbar bg-base-100">
+            <div className="navbar bg-slate-300">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -31,7 +31,7 @@ const Navber = () => {
                 <div className="navbar-end">
                     <p className=''>
                         <a href="https://drive.google.com/file/d/1Zk2XO3VgtjCrFJqWhiNITLgG2AyPgURr/view?usp=share_link" target="blank" download="">
-                            <button className="btn h-14 bg-gradient-to-r from-sky-300 to-indigo-400 ">Download resume</button>
+                            <button className="btn h-14 bg-gradient-to-r from-violet-400 to-fuchsia-500 ">Download resume</button>
                         </a>
                     </p>
                 </div>
